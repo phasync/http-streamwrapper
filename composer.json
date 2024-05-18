@@ -1,0 +1,22 @@
+{
+    "name": "phasync/http-streamwrapper",
+    "description": "An HTTP stream wrapper that makes http:// and https:// requests in PHP asynchronous.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "phasync\\HttpStreamWrapper\\": "src/"
+        },
+        "files": ["functions.php"]
+    },
+    "authors": [
+        {
+            "name": "Frode Børli",
+            "email": "frode@ennerd.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "phasync/phasync": "dev-main"
+    }
+}
